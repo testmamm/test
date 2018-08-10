@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    hello world!
+        /*
+        * 属性就是对象里面的变量
+        *对象中的属性和值之间用:相连
+        * 每个属性之间用逗号分割
+        *
+        * 最后一个属性和方法结束后不用,
+        * */
+        var zhangSan={
+            sex:"男",
+            age:28,
+            play:function () {
+            
+            }
+        };
+       zhangSan.age=30;
+        /*
+        *  属性值的获取和设置有两种方法
+        *  一种是点语法  zhangSan.sex
+        *  一种是关键字  zhangSan["sex"]  关键字这种方法，内容必须是字符串
+        *
+        * */
+        zhangSan["sex"]="女";
+        console.log(zhangSan["sex"]);
+        console.log(zhangSan.sex);
+
+        console["log"]("aaaa");
+    </script>
+</body>
+</html>
